@@ -1,0 +1,51 @@
+@import "compass/utilities/sprites";
+// $icons-layout:smart;
+@import "icons/*.png";
+i{
+@include all-icons-sprites(true);
+}
+@import "partials/footer";
+@import "partials/header";
+@import "partials/extend";
+@import 'compass/reset';
+@import "compass/css3/box-shadow";
+
+
+$color-souhait: #E80041;
+
+.containerindex{
+  @extend %djflex;
+  width: 100%;
+}
+.containerindexpart1, .containerindexpart2{
+  @extend %djflex;
+  width: 50%;
+}
+.boxindex{
+  background-color: #35345B;
+  width: 50%;
+  text-align: center;
+  padding: 50px 0px;
+  border: 1px solid #000000;
+   @include box-shadow(rgba(blue, 0.4) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset);
+}
+.containerindex{
+  width: 100%;
+  margin-top: 64px;
+}
+.btn-souhait{
+  background-color: $color-souhait !important;
+}
+.souhait{
+  color: #F3F3F3;
+  font-size: 25px;
+}
+
+.typesouhait{
+  color: $color-souhait;
+  font-size: 35px;
+}
+.icone{
+  color: #008ee8;
+  font-size: 60px !important;
+}

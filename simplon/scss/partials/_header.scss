@@ -1,0 +1,19 @@
+.navbar{
+  background-color: #000000;
+  nav{
+    .sidenav{
+      .nav-lien:hover{
+        background-color: #E80041;
+      }
+    }
+  }
+}
+
+.logo{
+  margin-top: 7px;
+  height: 50px;
+  width: auto;
+}
+.tp-fullwidth-forcer{
+  height: calc(100vh - 65px) !important;
+}

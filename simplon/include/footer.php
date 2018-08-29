@@ -29,10 +29,15 @@
 				<p class="footer-company-name">SIMPLON &copy; 2018</p>
 
 				<div class="footer-icons">
-					<a href="#"><i class="fa fa-facebook"></i></a>
+					<!-- <a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-twitter"></i></a>
 					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-google-plus-square"></i></a>
+					<a href="#"><i class="fa fa-google-plus-square"></i></a> -->
+
+					<a href="#"><i class="icons-fb"></i></a>
+					<a href="#"><i class="icons-yt"></i></a>
+					<a href="#"><i class="icons-tw"></i></a>
+					<a href="#" class="icons-ig"></a>
 				</div>
 			</div>
 

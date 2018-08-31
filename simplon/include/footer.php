@@ -34,10 +34,10 @@
 					<a href="#"><i class="fa fa-linkedin"></i></a>
 					<a href="#"><i class="fa fa-google-plus-square"></i></a> -->
 
-					<a href="#"><i class="icons-fb"></i></a>
-					<a href="#"><i class="icons-yt"></i></a>
-					<a href="#"><i class="icons-tw"></i></a>
-					<a href="#" class="icons-ig"></a>
+					<div class="icons-fb ich"></div>
+					<div class="icons-ig ich"></div>
+					<div class="icons-tw ich"></div>
+					<div class="icons-yt ich"></div>
 				</div>
 			</div>
 

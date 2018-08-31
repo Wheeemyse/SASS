@@ -1,415 +1,60 @@
-/* line 104, icons/*.png */
-.icons-sprite, i .icons-fb, i .icons-ig, i .icons-tw, i .icons-yt {
-  background-image: url('C:/xampp/htdocs/SASS/simplon/img/icons-s40882f3503.png');
-  background-repeat: no-repeat;
-}
+/*
+Error: Undefined mixin 'all-icons-sprites'.
+        on line 3 of C:/xampp/htdocs/SASS/simplon/scss/style.scss, in `all-icons-sprites'
+        from line 3 of C:/xampp/htdocs/SASS/simplon/scss/style.scss
 
-/* line 84, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-fb {
-  background-position: 0 0;
-  height: 100px;
-  width: 100px;
-}
-/* line 59, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-fb:hover, i .icons-fb.fb-hover {
-  background-position: 0 -100px;
-}
-/* line 84, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-ig {
-  background-position: 0 -200px;
-  height: 100px;
-  width: 100px;
-}
-/* line 59, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-ig:hover, i .icons-ig.ig-hover {
-  background-position: 0 -300px;
-}
-/* line 84, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-tw {
-  background-position: 0 -400px;
-  height: 100px;
-  width: 100px;
-}
-/* line 59, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-tw:hover, i .icons-tw.tw-hover {
-  background-position: 0 -500px;
-}
-/* line 84, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-yt {
-  background-position: 0 -600px;
-  height: 100px;
-  width: 100px;
-}
-/* line 59, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-i .icons-yt:hover, i .icons-yt.yt-hover {
-  background-position: 0 -700px;
-}
+1: @import "compass/utilities/sprites";
+2: 
+3: @include all-icons-sprites(true);
+4: $icons-layout: smart;
+5: @import "icons/*.png";
+6: 
+7: $icon-sprite-dimensions: true;
+8: @import "partials/footer";
 
-/* line 1, ../scss/partials/_footer.scss */
-.footer-distributed {
-  background-color: #444561;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  font: bold 16px sans-serif;
-  text-align: left;
-  padding: 50px 60px 40px;
-  overflow: hidden;
-}
-
-/* Footer left */
-/* line 15, ../scss/partials/_footer.scss */
-.footer-distributed .footer-left {
-  float: left;
-}
-
-/* The company logo */
-/* line 21, ../scss/partials/_footer.scss */
-.footer-distributed h3 {
-  color: #ffffff;
-  font: normal 36px 'Cookie', cursive;
-  margin: 0 0 10px;
-}
-
-/* line 27, ../scss/partials/_footer.scss */
-.footer-distributed h3 span {
-  color: #5383d3;
-}
-
-/* Footer links */
-/* line 33, ../scss/partials/_footer.scss */
-.footer-distributed .footer-links {
-  color: #ffffff;
-  margin: 0 0 10px;
-  padding: 0;
-}
-
-/* line 39, ../scss/partials/_footer.scss */
-.footer-distributed .footer-links a {
-  display: inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color: inherit;
-}
-
-/* line 46, ../scss/partials/_footer.scss */
-.footer-distributed .footer-company-name {
-  color: #8f9296;
-  font-size: 14px;
-  font-weight: normal;
-  margin: 0;
-}
-
-/* Footer social icons */
-/* line 55, ../scss/partials/_footer.scss */
-.footer-distributed .footer-icons {
-  margin-top: 40px;
-}
-
-/* line 59, ../scss/partials/_footer.scss */
-.footer-distributed .footer-icons a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-  background-color: #083150;
-  border-radius: 2px;
-  font-size: 20px;
-  color: #ffffff;
-  text-align: center;
-  line-height: 35px;
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
-
-/* Footer Right */
-/* line 78, ../scss/partials/_footer.scss */
-.footer-distributed .footer-right {
-  float: right;
-}
-
-/* line 82, ../scss/partials/_footer.scss */
-.footer-distributed .footer-right p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 15px 42px 0 0;
-  color: #ffffff;
-}
-
-/* The contact form */
-/* line 91, ../scss/partials/_footer.scss */
-.footer-distributed form {
-  display: inline-block;
-}
-
-/* line 95, ../scss/partials/_footer.scss */
-.footer-distributed form input,
-.footer-distributed form textarea {
-  display: block;
-  border-radius: 3px;
-  box-sizing: border-box;
-  background-color: #083150;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-  border: none;
-  resize: none;
-  font: inherit;
-  font-size: 14px;
-  font-weight: normal;
-  color: #d1d2d2;
-  width: 400px;
-  padding: 18px;
-}
-
-/* line 114, ../scss/partials/_footer.scss */
-.footer-distributed ::-webkit-input-placeholder {
-  color: #fff;
-}
-
-/* line 118, ../scss/partials/_footer.scss */
-.footer-distributed ::-moz-placeholder {
-  color: #fff;
-  opacity: 1;
-}
-
-/* line 123, ../scss/partials/_footer.scss */
-.footer-distributed :-ms-input-placeholder {
-  color: #fff;
-}
-
-/* line 128, ../scss/partials/_footer.scss */
-.footer-distributed form input {
-  height: 55px;
-  margin-bottom: 15px;
-}
-
-/* line 133, ../scss/partials/_footer.scss */
-.footer-distributed form textarea {
-  height: 100px;
-  margin-bottom: 20px;
-}
-
-/* line 138, ../scss/partials/_footer.scss */
-.footer-distributed form button {
-  border-radius: 3px;
-  background-color: #083150;
-  color: #ffffff;
-  border: 0;
-  padding: 15px 50px;
-  font-weight: bold;
-  float: right;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-@media (max-width: 1000px) {
-  /* line 152, ../scss/partials/_footer.scss */
-  .footer-distributed {
-    font: bold 14px sans-serif;
-  }
-
-  /* line 156, ../scss/partials/_footer.scss */
-  .footer-distributed .footer-company-name {
-    font-size: 12px;
-  }
-
-  /* line 160, ../scss/partials/_footer.scss */
-  .footer-distributed form input,
-  .footer-distributed form textarea {
-    width: 250px;
-  }
-
-  /* line 165, ../scss/partials/_footer.scss */
-  .footer-distributed form button {
-    padding: 10px 35px;
-  }
-}
-@media (max-width: 800px) {
-  /* line 173, ../scss/partials/_footer.scss */
-  .footer-distributed {
-    padding: 30px;
-  }
-
-  /* line 177, ../scss/partials/_footer.scss */
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-right {
-    float: none;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-
-  /* line 184, ../scss/partials/_footer.scss */
-  .footer-distributed .footer-left {
-    margin-bottom: 40px;
-  }
-
-  /* line 188, ../scss/partials/_footer.scss */
-  .footer-distributed form {
-    margin-top: 30px;
-  }
-
-  /* line 192, ../scss/partials/_footer.scss */
-  .footer-distributed form {
-    display: block;
-  }
-
-  /* line 196, ../scss/partials/_footer.scss */
-  .footer-distributed form button {
-    float: none;
-  }
-
-  /* line 199, ../scss/partials/_footer.scss */
-  .retourhaut {
-    top: 5px;
-  }
-}
-/* line 203, ../scss/partials/_footer.scss */
-.retourhaut {
-  float: right;
-  font-size: 5rem !important;
-}
-
-/* line 207, ../scss/partials/_footer.scss */
-.retourhaut:hover {
-  text-decoration: none;
-}
-
-/* line 1, ../scss/partials/_header.scss */
-.navbar {
-  background-color: #000000;
-}
-/* line 5, ../scss/partials/_header.scss */
-.navbar nav .sidenav .nav-lien:hover {
-  background-color: #E80041;
-}
-
-/* line 12, ../scss/partials/_header.scss */
-.logo {
-  margin-top: 7px;
-  height: 50px;
-  width: auto;
-}
-
-/* line 17, ../scss/partials/_header.scss */
-.tp-fullwidth-forcer {
-  height: calc(100vh - 65px) !important;
-}
-
-/* line 1, ../scss/partials/_extend.scss */
-.containerindex, .containerindexpart1, .containerindexpart2 {
-  display: flex;
-}
-
-/* line 5, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-/* line 16, ../scss/style.scss */
-.containerindex {
-  width: 100%;
-}
-
-/* line 20, ../scss/style.scss */
-.containerindexpart1, .containerindexpart2 {
-  width: 50%;
-}
-
-/* line 24, ../scss/style.scss */
-.boxindex {
-  background-color: #35345B;
-  width: 50%;
-  text-align: center;
-  padding: 50px 0px;
-  border: 1px solid #000000;
-  -moz-box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
-  -webkit-box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
-  box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
-}
-
-/* line 32, ../scss/style.scss */
-.containerindex {
-  width: 100%;
-  margin-top: 64px;
-}
-
-/* line 36, ../scss/style.scss */
-.btn-souhait {
-  background-color: #E80041 !important;
-}
-
-/* line 39, ../scss/style.scss */
-.souhait {
-  color: #F3F3F3;
-  font-size: 25px;
-}
-
-/* line 44, ../scss/style.scss */
-.typesouhait {
-  color: #E80041;
-  font-size: 35px;
-}
-
-/* line 48, ../scss/style.scss */
-.icone {
-  color: #008ee8;
-  font-size: 60px !important;
-}
+Backtrace:
+C:/xampp/htdocs/SASS/simplon/scss/style.scss:3:in `all-icons-sprites'
+C:/xampp/htdocs/SASS/simplon/scss/style.scss:3
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'all-icons-sprites'.\A         on line 3 of C:/xampp/htdocs/SASS/simplon/scss/style.scss, in `all-icons-sprites'\A         from line 3 of C:/xampp/htdocs/SASS/simplon/scss/style.scss\A \A 1: @import \"compass/utilities/sprites\";\A 2: \A 3: @include all-icons-sprites(true);\A 4: $icons-layout: smart;\A 5: @import \"icons/*.png\";\A 6: \A 7: $icon-sprite-dimensions: true;\A 8: @import \"partials/footer\";"; }

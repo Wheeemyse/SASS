@@ -2,7 +2,7 @@ require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "C:/xampp/htdocs/SASS"
+http_path = "/SASS/simplon"
 css_dir = "css"
 sass_dir = "scss"
 images_dir = "img"

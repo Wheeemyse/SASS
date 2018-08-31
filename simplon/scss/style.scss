@@ -1,9 +1,10 @@
 @import "compass/utilities/sprites";
-// $icons-layout:smart;
-@import "icons/*.png";
-i{
+
 @include all-icons-sprites(true);
-}
+$icons-layout: smart;
+@import "icons/*.png";
+
+$icon-sprite-dimensions: true;
 @import "partials/footer";
 @import "partials/header";
 @import "partials/extend";
@@ -21,6 +22,7 @@ $color-souhait: #E80041;
   @extend %djflex;
   width: 50%;
 }
+
 .boxindex{
   background-color: #35345B;
   width: 50%;
@@ -48,4 +50,8 @@ $color-souhait: #E80041;
 .icone{
   color: #008ee8;
   font-size: 60px !important;
+}
+
+.ich{
+  display: inline-block;
 }
